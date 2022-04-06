@@ -1,16 +1,19 @@
 
 # Steps to setup Prettier, ESLint and Husky 
 
-- Install eslint and prettier plugins in VSCode
-- Copy .eslintrc.json, .prettierrc and .prettierignore to the root of the repo
+- Install eslint and prettier plugins in VSCode.
+- Go to the repo.
 ### Please run the following commands :
-  -     npm i --save-dev prettier pretty-quick eslint husky 
-  -     npm i --save-dev eslint-config-airbnb eslint-config-prettier eslint-plugin-prettier eslint-plugin-react
+  -     curl -O https://raw.githubusercontent.com/frederic-neo/Setting-Up-Prettier-ESlint-Husky/main/.eslintrc.json -O https://raw.githubusercontent.com/frederic-neo/Setting-Up-Prettier-ESlint-Husky/main/.prettierignore -O https://raw.githubusercontent.com/frederic-neo/Setting-Up-Prettier-ESlint-Husky/main/.prettierrc
+  -     npm i --save-dev prettier pretty-quick eslint husky eslint-config-airbnb eslint-config-prettier eslint-plugin-prettier eslint-plugin-react
   -     npx husky install
   -     npm set-script lint "npx eslint src --ext .js,.jsx,.ts,.tsx"
   -     npm set-script lint:fix "npx eslint src --ext .js,.jsx,.ts,.tsx --fix"
   -     npm set-script prepare "husky install"
   -     npx husky add .husky/pre-commit "npx pretty-quick --staged && npm run lint"
+
+### To Run the commands synchronously (Alternative Method):
+  -     curl -O https://raw.githubusercontent.com/frederic-neo/Setting-Up-Prettier-ESlint-Husky/main/.eslintrc.json -O https://raw.githubusercontent.com/frederic-neo/Setting-Up-Prettier-ESlint-Husky/main/.prettierignore -O https://raw.githubusercontent.com/frederic-neo/Setting-Up-Prettier-ESlint-Husky/main/.prettierrc && npm i --save-dev prettier pretty-quick eslint husky eslint-config-airbnb eslint-config-prettier eslint-plugin-prettier eslint-plugin-react && npx husky install && npm set-script lint "npx eslint src --ext .js,.jsx,.ts,.tsx" && npm set-script lint:fix "npx eslint src --ext .js,.jsx,.ts,.tsx --fix" && npm set-script prepare "husky install" && npx husky add .husky/pre-commit "npx pretty-quick --staged && npm run lint"
 
 Voila!!🔥😁 You have just setup Prettier, ESLint and Husky. Just go ahead and try commiting 😋.
 
