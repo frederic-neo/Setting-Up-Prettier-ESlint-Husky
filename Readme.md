@@ -1,7 +1,7 @@
 
 # Steps to setup Prettier, ESLint and Husky 
 
-- Install eslint and prettier plugins in VSCode.
+- Install Eslint and Prettier plugins in VSCode.
 - Go to the repo.
 ### Please run the following commands :
   -     curl -O https://raw.githubusercontent.com/frederic-neo/Setting-Up-Prettier-ESlint-Husky/main/.eslintrc.json -O https://raw.githubusercontent.com/frederic-neo/Setting-Up-Prettier-ESlint-Husky/main/.prettierignore -O https://raw.githubusercontent.com/frederic-neo/Setting-Up-Prettier-ESlint-Husky/main/.prettierrc
