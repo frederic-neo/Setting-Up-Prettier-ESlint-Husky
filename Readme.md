@@ -28,5 +28,4 @@
 
         npm run lint:fix
 
-- If you notice any out of the ordinary eslint errors report to me (Frederic).
-We will look into it and make respective fixes or rule changes.    
+- If you notice any out of the ordinary eslint errors report to @frederic-neo . We will look into it and make respective fixes or rule changes.    
