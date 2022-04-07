@@ -13,6 +13,11 @@
   },
   "plugins": ["react", "prettier"],
   "rules": {
+    "jsx-a11y/click-events-have-key-events":"off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "camelcase":"warn",
+    "no-promise-executor-return":"off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
     "no-unused-vars": "warn",
     "no-console": "off",
     "react/jsx-filename-extension": "off",
